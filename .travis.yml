@@ -1,7 +1,9 @@
 # no installation...
-
+rvm: "1.9.3"
 install:
  - sudo apt-get -q install gperf
+
+
 
 env: MRUBY_CONFIG=travis_config.rb
 script: "./minirake all test"
